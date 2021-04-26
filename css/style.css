@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*背景*/
+.bg {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    z-index: -999;
+}
+
+.w {
+    margin: 0 auto;
+    width: 1200px;
+    color: #ffffff;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_ul .active {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.nav_ul li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav_ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.nav_ul li a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    color: beige;
+    transition-duration: 0.2s;
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description > p {
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.items {
+
+}
+
+.items .items_ul {
+
+}
+
+
+.items .item {
+    margin: 20px;
+}
+
+.items .item * {
+    margin: 5px 0;
+}
+
+.items .item img {
+    border-radius: 15px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
